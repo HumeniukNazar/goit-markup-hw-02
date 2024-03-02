@@ -12,7 +12,7 @@ ul {
 }
 .header-logo {
   font-family: Raleway, sans-serif;
-  color: #4d5ae5
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -29,7 +29,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .header-menu-link {
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .header-menu-link:hover,
 .header-menu-link:active,
@@ -37,7 +37,7 @@ ul {
   color: #404bbf;
 }
 .header-adress {
-    font-style: normal;
+  font-style: normal;
 }
 .header-contacts-menu {
   color: #434455;
@@ -47,11 +47,15 @@ ul {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.header-contacts-item:hover {
+.header-contacts-item {
+  color: #434455;
+}
+.header-contacts-item:hover,
+.header-contacts-item:focus {
   color: #404bbf;
 }
 .main-screen {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .main-title {
   background-color: #2e2f42;
@@ -79,6 +83,9 @@ ul {
   cursor: pointer;
 }
 .features-title {
+  color: #2e2f42;
+}
+.features-title {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -96,6 +103,7 @@ ul {
   background-color: #f4f4fd;
 }
 .team-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -104,9 +112,10 @@ ul {
   text-transform: capitalize;
 }
 .team-list-item {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .team-name {
+  color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -122,6 +131,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -130,6 +140,7 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-card-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
